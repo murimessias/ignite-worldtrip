@@ -13,7 +13,7 @@ export default function Home() {
         <title>World Trip | 5 continentes, infinitas possibilidades</title>
       </Head>
 
-      <Header logo="logo.svg" />
+      <Header logo="/logo.svg" />
 
       <main>
         <Banner />

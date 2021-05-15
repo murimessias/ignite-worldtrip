@@ -11,9 +11,9 @@ import {
   AspectRatio,
 } from '@chakra-ui/react';
 import React from 'react';
-import { Header } from '../../../components/Header';
+import { Header } from '../../components/Header';
 
-export default function Continentes() {
+export default function Africa() {
   return (
     <>
       <Header logo="/logo.svg" />

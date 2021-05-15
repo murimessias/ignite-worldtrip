@@ -1,5 +1,4 @@
 import { Box, Flex, Heading, Image, Text, Container } from '@chakra-ui/react';
-
 export function Banner() {
   return (
     <Flex
@@ -19,11 +18,11 @@ export function Banner() {
           h="100%"
           maxWidth={1200}
         >
-          <Box w={['100%', '65%']} alignSelf="center">
+          <Box w={['100%', '60%']} alignSelf="center">
             <Heading
               as="h1"
               mb="2"
-              fontSize={['2xl', '4xl']}
+              fontSize={['2xl', '3xl', '4xl']}
               fontWeight="600"
               color="white"
               lineHeight={1.15}
@@ -37,7 +36,7 @@ export function Banner() {
             </Text>
           </Box>
           <Box position="relative" flex="1" display={['none', 'inline-flex']}>
-            <Image src="airplane.svg" position="absolute" bottom="-8" />
+            <Image src="/airplane.svg" position="absolute" bottom="-8" />
           </Box>
         </Flex>
       </Container>
